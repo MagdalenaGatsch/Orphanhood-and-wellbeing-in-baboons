@@ -5,26 +5,26 @@ The indicators and models used are:
 
 1) Displacement behaviour rate (indicators of anxiety and stress)
 
-     1.1) Orphan vs non-orphans: Negative Binomial GLMM with a log link function
+     a) Orphan vs non-orphans: Negative Binomial GLMM with a log link function
 
-     1.2) Only orphan population: Negative Binomial GLMM with a log link function
+     b) Only orphan population: Negative Binomial GLMM with a log link function
      
   2) Time spent alone: proportion of time spent without any neighbors within 5 meters)
 
-     2.1) Orphan vs non-orphans: Beta GLMM with a logit link function 
+     a) Orphan vs non-orphans: Beta GLMM with a logit link function 
 
-     2.2) Only orphan population: Beta GLMM with a logit link function
+     b) Only orphan population: Beta GLMM with a logit link function
      
   3) Negative interactions (time spent in negative interactions and frequency):
 
-    a) Duration of negative interactions:
+    3.1) Duration of negative interactions:
 
-      Orphan vs non-orphans: Beta GLMM with a logit link function
+     a) Orphan vs non-orphans: Beta GLMM with a logit link function
 
-      Only orphan population: Beta GLMM with a logit link function
+     b) Only orphan population: Beta GLMM with a logit link function
 
-    b) Frequency of negative interactions:
+    3.2) Frequency of negative interactions:
       
-       Orphan vs non-orphans: Negative Binomial GLM with a log link function
+      a) Orphan vs non-orphans: Negative Binomial GLM with a log link function
 
-       Only orphan population: GLM 
+      b) Only orphan population: GLM 
